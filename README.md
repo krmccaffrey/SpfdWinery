@@ -9,7 +9,7 @@
     <h1 style="text-align:center;">
     <img src="logo.png"
          alt="Springfield Winery Logo"
-         style="width:10px; height:10px;"
+         style="width:50px; height:50px;"
      />
     Springfield Winery!
         <img src="logo.png"
