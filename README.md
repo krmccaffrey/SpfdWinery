@@ -14,7 +14,7 @@
     Springfield Winery!
         <img src="logo.png"
              alt="Springfield Winery Logo"
-             style="width:10px; height:10px;" />
+             style="width:50px; height:50px;" />
     </h1>
     <hr />
     <h3 style="text-align:center; font-size:175% ">Welcome to Springfield Winery</h3>
