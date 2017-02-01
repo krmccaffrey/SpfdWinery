@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -18,7 +17,11 @@
     </h1>
     <hr />
     <h3 style="text-align:center; font-size:175% ">Welcome to Springfield Winery</h3>
-    <p style="text-align:center; font-size: 125%"> 
+    <p style="text-align:center; font-size: 125%">
+        <a href="htmlPage1.html" style="color:darkred; font-family:Verdana">Home</a>
+        <a href="redwine.html"style="color:darkred; font-family:Verdana"> Red Wine</a>
+        <a href="whitewine.html" style="color:darkred; font-family:Verdana"> White Wine</a>
+        <a href="contact.html" style="color:darkred; font-family:Verdana"> Contact Us!</a>
     We sell the best of all local <br />
     wines from Springfield, Missouri <br />
     and the surrounding areas!</p>
