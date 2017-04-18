@@ -1,0 +1,271 @@
+﻿
+        ul {
+            list-style-type:none;
+            margin: 0;
+            padding: 10px;
+            overflow: hidden;
+            background-color: gray;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            width:500px; 
+            overflow:auto;
+        }
+
+        li a:hover:not(.active) {
+            background-color: white;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: .3em;
+
+        }
+        div.container {
+            width: 100%;
+
+        }
+
+        header{
+            padding: 0em;
+            color: white;
+            background-color: gray;
+            clear: left;
+            text-align: center;
+            width:inherit;
+            position:relative;
+            z-index:100;
+            
+        }
+        footer {
+            padding: .5em;
+            color: white;
+            background-color: gray;
+            clear: left;
+            text-align: center;
+            width: inherit;
+        }
+        nav {
+            float: left;
+            max-width: 170px;
+            margin: 0;
+            padding: .401em;
+            background-color:lavender;
+        }
+        article {
+            margin-left: 170px;
+            border-left: 1px solid gray;
+            padding: 1em;
+            overflow: hidden;
+            position:inherit;
+            z-index:100;
+
+        }
+        body {
+          background:url(bg.jpg);
+        }
+        h1{
+            text-align: center;
+                text-shadow: 1px 1px 2px white, 0 0 25px maroon, 0 0 5px darkblue;
+
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+        h2{
+            font-family:'Californian FB';
+                text-shadow: 10px 10px 10px gray;
+
+        }
+        h3{
+            text-align:center;
+            font-size: 175%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        p{
+            font-family:'Lucida Bright';
+            font-size:medium;
+        }
+        td{
+            font-family:Calibri;
+            font-weight:400;
+        }
+        th{
+            font-size: 125%;
+        }
+        /* unvisited link */
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* visited link */
+        a:visited {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: forestgreen;
+            text-decoration: underline;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+            text-decoration: none;
+            background-color:darkseagreen;
+        }
+        tr:hover{background-color:white;}
+
+       .dropbtn {
+    background-color: gray;
+    color: black;
+    font-family:'Times New Roman', 'Times New Roman', Times, serif;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 420px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+   position: fixed;
+    background-color: white;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: flex;
+    text-align:center;
+}
+
+.dropdown-content a:hover {
+    color: forestgreen;
+     text-decoration: underline;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+
+* {box-sizing:border-box}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  max-height:inherit;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 15px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
